@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wTVLlPJTh78=",
+  "dgSpecHash": "HVTF1VY4UHI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\elvis\\source\\repos\\DB4O-Demo\\DB4O-Demo.csproj",
+  "projectFilePath": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\DB4O-Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elvis\\.nuget\\packages\\db4o-devel\\8.1.184.15492\\db4o-devel.8.1.184.15492.nupkg.sha512",
     "C:\\Users\\elvis\\.nuget\\packages\\realtaiizor\\3.8.0.7\\realtaiizor.3.8.0.7.nupkg.sha512"

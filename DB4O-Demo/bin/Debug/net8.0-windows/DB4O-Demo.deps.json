@@ -9,8 +9,7 @@
       "DB4O-Demo/1.0.0": {
         "dependencies": {
           "ReaLTaiizor": "3.8.0.7",
-          "db4o-devel": "8.1.184.15492",
-          "Db4objects.Db4o.NativeQueries": "7.2.44.10827"
+          "db4o-devel": "8.1.184.15492"
         },
         "runtime": {
           "DB4O-Demo.dll": {}
@@ -43,38 +42,6 @@
             "fileVersion": "3.8.0.7"
           }
         }
-      },
-      "Db4objects.Db4o.NativeQueries/7.2.44.10827": {
-        "runtime": {
-          "Db4objects.Db4o.NativeQueries.dll": {
-            "assemblyVersion": "7.2.44.10827",
-            "fileVersion": "7.2.44.10827"
-          }
-        }
-      },
-      "Cecil.FlowAnalysis/0.1.0.0": {
-        "runtime": {
-          "Cecil.FlowAnalysis.dll": {
-            "assemblyVersion": "0.1.0.0",
-            "fileVersion": "0.1.0.0"
-          }
-        }
-      },
-      "Db4objects.Db4o.Instrumentation/7.2.44.10827": {
-        "runtime": {
-          "Db4objects.Db4o.Instrumentation.dll": {
-            "assemblyVersion": "7.2.44.10827",
-            "fileVersion": "7.2.44.10827"
-          }
-        }
-      },
-      "Mono.Cecil/0.6.8.8607": {
-        "runtime": {
-          "Mono.Cecil.dll": {
-            "assemblyVersion": "0.6.8.8607",
-            "fileVersion": "0.6.8.8607"
-          }
-        }
       }
     }
   },
@@ -97,26 +64,6 @@
       "sha512": "sha512-BTqUqATyfrNLE9I3Uga+g3QqidUn8bPv1W59thmJL8lsCxbzF5mgyRra2qLpRuA8I7ZQx4BRWexPLt5YAGbszQ==",
       "path": "realtaiizor/3.8.0.7",
       "hashPath": "realtaiizor.3.8.0.7.nupkg.sha512"
-    },
-    "Db4objects.Db4o.NativeQueries/7.2.44.10827": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Cecil.FlowAnalysis/0.1.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Db4objects.Db4o.Instrumentation/7.2.44.10827": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Mono.Cecil/0.6.8.8607": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

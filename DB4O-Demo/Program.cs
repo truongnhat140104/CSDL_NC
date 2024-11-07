@@ -9,7 +9,7 @@
             Application.EnableVisualStyles();
             ApplicationConfiguration.Initialize();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu());
+            Application.Run(new LogIn());
         }
     }
 }
