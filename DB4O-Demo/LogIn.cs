@@ -28,6 +28,7 @@ namespace DB4O_Demo
                 Menu menu = new Menu(username);
                 this.Hide();
                 menu.ShowDialog();
+                this.Close();
             }
             else
             {
