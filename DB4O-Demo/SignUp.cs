@@ -8,16 +8,6 @@ namespace DB4O_Demo
     public partial class SignUp : Form
     {
         private IObjectContainer db4o;
-        private string username;
-        private string password;
-        private string confirm_pass;
-
-        public SignUp(IObjectContainer db)
-        {
-            InitializeComponent();
-            this.db4o = db;
-        }
-
         public SignUp()
         {
             InitializeComponent();
@@ -26,6 +16,7 @@ namespace DB4O_Demo
         // Phương thức kiểm tra để in thông tin người dùng
         public string Check(IObjectContainer db)
         {
+            db = Db4oFactory.OpenFile("DB4O_DEMO.db4o");
             string s = "";
             var result = db.Query<User>();
             foreach (User user in result)
@@ -33,6 +24,7 @@ namespace DB4O_Demo
                 s += user.Name + " " + user.Password + Environment.NewLine;
             }
             return s;
+            db.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -64,10 +56,8 @@ namespace DB4O_Demo
                 db4o.Commit();
                 MessageBox.Show("Đăng ký thành công!");
 
-                // Đóng db4o
-                db4o.Close();
-
                 // Ẩn form đăng ký và hiện form đăng nhập
+                db4o.Close();
                 this.Hide();
                 LogIn logIn = new LogIn();
                 logIn.ShowDialog();
@@ -79,6 +69,7 @@ namespace DB4O_Demo
         }
         private void label4_Click(object sender, EventArgs e)
         {
+            db4o.Close();
             LogIn logIn = new LogIn();
             this.Hide();
             logIn.ShowDialog();

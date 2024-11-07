@@ -54,6 +54,7 @@ namespace DB4O_Demo
                     db4o.Store(sinhvien);
                 }
                 db4o.Commit();
+                db4o.Close();
             }
             db4o.Close();
         }
