@@ -46,10 +46,11 @@ C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\bin\Debug\net8.0-windows\Db4ob
 C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\bin\Debug\net8.0-windows\Mono.Reflection.dll
 C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\bin\Debug\net8.0-windows\ReaLTaiizor.dll
 C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\obj\Debug\net8.0-windows\DB4O-Demo.csproj.AssemblyReference.cache
+C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\obj\Debug\net8.0-windows\DB4O_Demo.AddingPoint.resources
 C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\obj\Debug\net8.0-windows\DB4O_Demo.Department.resources
+C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\obj\Debug\net8.0-windows\DB4O_Demo.Function.resources
 C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\obj\Debug\net8.0-windows\DB4O_Demo.LogIn.resources
 C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\obj\Debug\net8.0-windows\DB4O_Demo.Menu.resources
-C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\obj\Debug\net8.0-windows\DB4O_Demo.Nhapdiem.resources
 C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\obj\Debug\net8.0-windows\DB4O_Demo.Properties.Resources.resources
 C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\obj\Debug\net8.0-windows\DB4O_Demo.SignUp.resources
 C:\Users\elvis\OneDrive\Desktop\CSDL_NC\DB4O-Demo\obj\Debug\net8.0-windows\DB4O_Demo.Student.resources

@@ -53,7 +53,7 @@ namespace DB4O_Demo
 
         private void aloneButton4_Click(object sender, EventArgs e)
         {
-            Nhapdiem nd = new Nhapdiem();
+            AddingPoint nd = new AddingPoint();
             AddFormToPanel(nd, panel3);
         }
 

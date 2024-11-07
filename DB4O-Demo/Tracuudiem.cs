@@ -102,6 +102,7 @@ namespace DB4O_Demo
 
         private void button2_Click(object sender, EventArgs e)
         {
+            dungeonTextBox1.Text = "";
             LoadDataToDataGridView();
         }
     }

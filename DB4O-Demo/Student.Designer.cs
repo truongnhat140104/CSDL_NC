@@ -57,10 +57,11 @@
             // 
             button1.Location = new Point(461, 185);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(120, 29);
             button1.TabIndex = 1;
-            button1.Text = "Thêm";
+            button1.Text = "Chức năng";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -74,7 +75,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(609, 185);
+            button3.Location = new Point(615, 185);
             button3.Name = "button3";
             button3.Size = new Size(94, 29);
             button3.TabIndex = 3;

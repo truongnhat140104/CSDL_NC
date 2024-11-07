@@ -30,10 +30,11 @@ namespace DB4O_Demo
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             splitContainer1 = new SplitContainer();
+            materialDivider2 = new ReaLTaiizor.Controls.MaterialDivider();
             aloneButton5 = new ReaLTaiizor.Controls.AloneButton();
             panel5 = new Panel();
-            materialDivider1 = new ReaLTaiizor.Controls.MaterialDivider();
             panel2 = new Panel();
             aloneButton4 = new ReaLTaiizor.Controls.AloneButton();
             aloneButton3 = new ReaLTaiizor.Controls.AloneButton();
@@ -55,9 +56,9 @@ namespace DB4O_Demo
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.BackColor = Color.White;
-            splitContainer1.Panel1.Controls.Add(aloneButton5);
             splitContainer1.Panel1.Controls.Add(panel5);
-            splitContainer1.Panel1.Controls.Add(materialDivider1);
+            splitContainer1.Panel1.Controls.Add(materialDivider2);
+            splitContainer1.Panel1.Controls.Add(aloneButton5);
             splitContainer1.Panel1.Controls.Add(panel2);
             splitContainer1.Panel1.Controls.Add(aloneButton4);
             splitContainer1.Panel1.Controls.Add(aloneButton3);
@@ -73,6 +74,18 @@ namespace DB4O_Demo
             splitContainer1.SplitterWidth = 1;
             splitContainer1.TabIndex = 1;
             // 
+            // materialDivider2
+            // 
+            materialDivider2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            materialDivider2.BackColor = Color.WhiteSmoke;
+            materialDivider2.Depth = 0;
+            materialDivider2.Location = new Point(96, 29);
+            materialDivider2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
+            materialDivider2.Name = "materialDivider2";
+            materialDivider2.Size = new Size(140, 72);
+            materialDivider2.TabIndex = 7;
+            materialDivider2.Text = "materialDivider2";
+            // 
             // aloneButton5
             // 
             aloneButton5.Anchor = AnchorStyles.Left | AnchorStyles.Right;
@@ -80,7 +93,7 @@ namespace DB4O_Demo
             aloneButton5.EnabledCalc = true;
             aloneButton5.Font = new Font("Segoe UI", 9F);
             aloneButton5.ForeColor = Color.Black;
-            aloneButton5.Location = new Point(62, 563);
+            aloneButton5.Location = new Point(66, 532);
             aloneButton5.Name = "aloneButton5";
             aloneButton5.Size = new Size(150, 53);
             aloneButton5.TabIndex = 6;
@@ -89,31 +102,19 @@ namespace DB4O_Demo
             // 
             // panel5
             // 
-            panel5.BackColor = Color.Transparent;
-            panel5.BackgroundImage = Properties.Resources.user;
+            panel5.BackColor = Color.WhiteSmoke;
+            panel5.BackgroundImage = (Image)resources.GetObject("panel5.BackgroundImage");
             panel5.BackgroundImageLayout = ImageLayout.Zoom;
-            panel5.BorderStyle = BorderStyle.Fixed3D;
+            panel5.ForeColor = Color.Transparent;
             panel5.Location = new Point(40, 29);
             panel5.Name = "panel5";
             panel5.Size = new Size(63, 72);
             panel5.TabIndex = 5;
             // 
-            // materialDivider1
-            // 
-            materialDivider1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            materialDivider1.BackColor = Color.DimGray;
-            materialDivider1.Depth = 0;
-            materialDivider1.Location = new Point(27, 12);
-            materialDivider1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
-            materialDivider1.Name = "materialDivider1";
-            materialDivider1.Size = new Size(217, 110);
-            materialDivider1.TabIndex = 4;
-            materialDivider1.Text = "materialDivider1";
-            // 
             // panel2
             // 
             panel2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            panel2.BackgroundImage = Properties.Resources.logout;
+            panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
             panel2.BackgroundImageLayout = ImageLayout.Zoom;
             panel2.Cursor = Cursors.Hand;
             panel2.Location = new Point(0, 653);
@@ -129,7 +130,7 @@ namespace DB4O_Demo
             aloneButton4.EnabledCalc = true;
             aloneButton4.Font = new Font("Segoe UI", 9F);
             aloneButton4.ForeColor = Color.Black;
-            aloneButton4.Location = new Point(62, 470);
+            aloneButton4.Location = new Point(66, 439);
             aloneButton4.Name = "aloneButton4";
             aloneButton4.Size = new Size(150, 47);
             aloneButton4.TabIndex = 3;
@@ -143,7 +144,7 @@ namespace DB4O_Demo
             aloneButton3.EnabledCalc = true;
             aloneButton3.Font = new Font("Segoe UI", 9F);
             aloneButton3.ForeColor = Color.Black;
-            aloneButton3.Location = new Point(62, 378);
+            aloneButton3.Location = new Point(66, 347);
             aloneButton3.Name = "aloneButton3";
             aloneButton3.Size = new Size(150, 48);
             aloneButton3.TabIndex = 2;
@@ -157,7 +158,7 @@ namespace DB4O_Demo
             aloneButton2.EnabledCalc = true;
             aloneButton2.Font = new Font("Segoe UI", 9F);
             aloneButton2.ForeColor = Color.Black;
-            aloneButton2.Location = new Point(62, 291);
+            aloneButton2.Location = new Point(66, 261);
             aloneButton2.Name = "aloneButton2";
             aloneButton2.Size = new Size(150, 45);
             aloneButton2.TabIndex = 1;
@@ -171,7 +172,7 @@ namespace DB4O_Demo
             aloneButton1.EnabledCalc = true;
             aloneButton1.Font = new Font("Segoe UI", 9F);
             aloneButton1.ForeColor = Color.Black;
-            aloneButton1.Location = new Point(62, 193);
+            aloneButton1.Location = new Point(66, 162);
             aloneButton1.Name = "aloneButton1";
             aloneButton1.Size = new Size(150, 55);
             aloneButton1.TabIndex = 0;
@@ -184,7 +185,7 @@ namespace DB4O_Demo
             panel3.BackColor = Color.White;
             panel3.Location = new Point(32, 29);
             panel3.Name = "panel3";
-            panel3.Size = new Size(913, 632);
+            panel3.Size = new Size(911, 632);
             panel3.TabIndex = 0;
             // 
             // Menu
@@ -193,6 +194,7 @@ namespace DB4O_Demo
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1251, 692);
             Controls.Add(splitContainer1);
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "Menu";
             Text = "Quản lý thông tin";
             Load += Menu_Load;
@@ -211,8 +213,8 @@ namespace DB4O_Demo
         private ReaLTaiizor.Controls.AloneButton aloneButton4;
         private Panel panel2;
         private Panel panel3;
-        private ReaLTaiizor.Controls.MaterialDivider materialDivider1;
-        private Panel panel5;
         private ReaLTaiizor.Controls.AloneButton aloneButton5;
+        private ReaLTaiizor.Controls.MaterialDivider materialDivider2;
+        private Panel panel5;
     }
 }

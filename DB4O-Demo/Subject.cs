@@ -137,6 +137,9 @@ namespace DB4O_Demo
         // Nut reset
         private void button2_Click(object sender, EventArgs e)
         {
+            dungeonTextBox1.Text = "";
+            dungeonTextBox2.Text = "";
+            dungeonTextBox3.Text = "";
             LoadDataToDataGridView();
         }
     }

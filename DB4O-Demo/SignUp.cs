@@ -35,6 +35,7 @@ namespace DB4O_Demo
 
             if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password) && !string.IsNullOrEmpty(confirm_pass))
             {
+                db4o = Db4oFactory.OpenFile("DB4O_DEMO.db4o");
                 // Kiểm tra người dùng đã tồn tại
                 var existingUsers = db4o.Query<User>(u => u.Name == username);
                 if (existingUsers.Any())

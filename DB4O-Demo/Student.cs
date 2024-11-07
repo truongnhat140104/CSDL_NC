@@ -90,7 +90,6 @@ namespace DB4O_Demo
             LoadDataToDataGridView();
         }
 
-
         // Tìm kiếm
         private void button2_Click(object sender, EventArgs e)
         {
@@ -112,12 +111,12 @@ namespace DB4O_Demo
                 {
                     var khoa = khoa_query.FirstOrDefault(k => k.maKh == sv.maKh);
                     string khoa_name = khoa != null ? khoa.name : "N/A";
-                    dataGridView1.Rows.Add(sv.maSV, sv.nameSV,sv.phone, khoa_name);
+                    dataGridView1.Rows.Add(sv.maSV, sv.nameSV, sv.phone, khoa_name);
                 }
 
                 if (!result.Any())
                 {
-                    MessageBox.Show("Không tìm thấy môn học nào với thông tin đã nhập.");
+                    MessageBox.Show("Không tìm thấy sinh viên nào với thông tin đã nhập.");
                 }
                 db4o.Close();
             }
@@ -130,7 +129,16 @@ namespace DB4O_Demo
 
         private void button3_Click(object sender, EventArgs e)
         {
+            dungeonTextBox1.Text = "";
+            dungeonTextBox2.Text = "";
+            dungeonTextBox3.Text = "";
             LoadDataToDataGridView();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Function addSv = new Function();
+            addSv.ShowDialog();
         }
     }
 }

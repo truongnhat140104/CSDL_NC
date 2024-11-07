@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{682908A2-94B0-4815-90D6-FFC8DD0ADE46}|DB4O-Demo.csproj|c:\\users\\elvis\\onedrive\\desktop\\csdl_nc\\db4o-demo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{682908A2-94B0-4815-90D6-FFC8DD0ADE46}|DB4O-Demo.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{682908A2-94B0-4815-90D6-FFC8DD0ADE46}|DB4O-Demo.csproj|c:\\users\\elvis\\onedrive\\desktop\\csdl_nc\\db4o-demo\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{682908A2-94B0-4815-90D6-FFC8DD0ADE46}|DB4O-Demo.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{682908A2-94B0-4815-90D6-FFC8DD0ADE46}|DB4O-Demo.csproj|c:\\users\\elvis\\onedrive\\desktop\\csdl_nc\\db4o-demo\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{682908A2-94B0-4815-90D6-FFC8DD0ADE46}|DB4O-Demo.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{682908A2-94B0-4815-90D6-FFC8DD0ADE46}|DB4O-Demo.csproj|c:\\users\\elvis\\onedrive\\desktop\\csdl_nc\\db4o-demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{682908A2-94B0-4815-90D6-FFC8DD0ADE46}|DB4O-Demo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{682908A2-94B0-4815-90D6-FFC8DD0ADE46}|DB4O-Demo.csproj|c:\\users\\elvis\\onedrive\\desktop\\csdl_nc\\db4o-demo\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{682908A2-94B0-4815-90D6-FFC8DD0ADE46}|DB4O-Demo.csproj|solutionrelative:signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{682908A2-94B0-4815-90D6-FFC8DD0ADE46}|DB4O-Demo.csproj|c:\\users\\elvis\\onedrive\\desktop\\csdl_nc\\db4o-demo\\addingpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{682908A2-94B0-4815-90D6-FFC8DD0ADE46}|DB4O-Demo.csproj|solutionrelative:addingpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +18,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LogIn.cs",
-              "DocumentMoniker": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\LogIn.cs",
-              "RelativeDocumentMoniker": "LogIn.cs",
-              "ToolTip": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\LogIn.cs",
-              "RelativeToolTip": "LogIn.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABoAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:33:37.65Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignUp.cs",
-              "DocumentMoniker": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\SignUp.cs",
-              "RelativeDocumentMoniker": "SignUp.cs",
-              "ToolTip": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\SignUp.cs",
-              "RelativeToolTip": "SignUp.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwEcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:37:29.512Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\Student.cs",
-              "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\Student.cs",
-              "RelativeToolTip": "Student.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAD4v4gAAAAAAAAAAAAAAA==",
+              "Title": "AddingPoint.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\AddingPoint.cs",
+              "RelativeDocumentMoniker": "AddingPoint.cs",
+              "ToolTip": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\AddingPoint.cs [Design]",
+              "RelativeToolTip": "AddingPoint.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:33:04.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T17:46:35.807Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\elvis\\OneDrive\\Desktop\\CSDL_NC\\DB4O-Demo\\Menu.cs [Design]",
+              "RelativeToolTip": "Menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T09:40:38.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T17:40:53.709Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
